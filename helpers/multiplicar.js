@@ -24,7 +24,7 @@ exports.tablaMultiplicacion = async (base, multiplos, listar) => {
       console.log(consola);
     }
 
-    fs.writeFileSync(`./salida/tabla-${base}.txt`, salida);
+    fs.writeFileSync(`./out/tabla-${base}.txt`, salida);
     //console.log(`tabla-${base}.txt creada`);
     return `tabla-${base}.txt`.green;
   } catch (error) {
