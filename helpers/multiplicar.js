@@ -2,7 +2,7 @@ const { stripColors } = require("colors");
 const fs = require("fs");
 require("colors");
 
-exports.tablaMultiplicacion = async (base, multiplos, listar) => {
+exports.tablaMultiplicacion = async (base, multiplos = 10, listar) => {
   try {
     let salida = "";
     let consola = "";
